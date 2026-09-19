@@ -80,7 +80,8 @@ class AdGuardHome(APPBase):
             if opt and opt.split('=', 1)[0] not in cls._SUPPORTED_MODIFIERS:
                 return False
         # DNS 只匹配主机名，含 URL 路径特征的正则永远不会命中
-        if '\\/' in body or '://' in body:
+        # （含转义的 \/ 和未转义的 /，后者常见于整条以 / 结尾但实际带有浏览器修饰符的规则）
+        if '\\/' in body or '://' in body or re.search(r'(?<!\\)/', body):
             return False
         if cls._RE2_UNSUPPORTED.search(body):
             return False
@@ -176,7 +177,5 @@ class AdGuardHome(APPBase):
                 logger.info("adblock AdGuardHome Lite: block=%d(+%d regex), unblock=%d(+%d regex)"%(len(blockList), len(blockRegexList), len(unblockList), len(unblockRegexList)))
             else:
                 logger.info("adblock AdGuardHome: block=%d(+%d regex), unblock=%d(+%d regex)"%(len(blockList), len(blockRegexList), len(unblockList), len(unblockRegexList)))
-        except Exception as e:
-            logger.error("%s"%(e))
         except Exception as e:
             logger.error("%s"%(e))

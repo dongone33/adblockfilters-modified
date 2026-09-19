@@ -101,6 +101,9 @@ class Resolver(object):
             return ip, fld, subdomain
     
     def __analysis(self, address:str) -> Tuple[str]:
+        # 域名/IP 中不可能含空白；含空白说明是 "0.0.0.0 example.com" 之类的 hosts 行被误当成域名
+        if re.search(r'\s', address):
+            raise Exception('"%s": contains whitespace'%(address))
         address_tmp, _ = self.__split_host_port(address)
         ip, fld, subdomain = self.__ip_or_domain(address_tmp)
         if ip:
@@ -113,7 +116,7 @@ class Resolver(object):
         domain = domain.strip()
         if not domain or domain.startswith('~'):
             return None
-        if ',' in domain or '|' in domain:
+        if ',' in domain or '|' in domain or re.search(r'\s', domain):
             return None
         if domain.startswith('*.'):
             domain = domain[2:]
@@ -154,54 +157,51 @@ class Resolver(object):
                 return self.__parse_domain_list(domain_value, '|')
         return set()
 
-    # host 模式
-    def __resolveHost(self, line) -> List[Tuple[str, str]]:
-        def match(pattern, string):
-            return True if re.match(pattern, string) else False
-        try:
-            blocks = []
-            while True:
-                # #* 注释
-                if match('^#.*', line):
-                    break
-                if match('^!.*', line):
-                    break
+    # 判断一行是否为 hosts 格式（以 IP 开头，后面至少跟一个主机名）
+    _HOSTS_LINE = re.compile(r'^(?:\d{1,3}(?:\.\d{1,3}){3}|[0-9a-fA-F:]*:[0-9a-fA-F:.]*)\s+\S')
 
-                line = line.replace('\t', ' ')
-                
-                if line.find('#') > 0:
-                    line = line[:line.find('#')].strip()
-                line = line.strip()
-                if not line:
-                    break
-                
-                row = line.split()
-                if len(row) < 2:
-                    break
-                if not self.__is_ip_address(row[0]):
-                    break
-                for domain in row[1:]:
-                    if domain in {
-                        'localhost',
-                        'localhost.localdomain',
-                        'local',
-                        '0.0.0.0',
-                        '127.0.0.1',
-                        '::1',
-                        '::',
-                        'ip6-localhost',
-                        'ip6-loopback',
-                    }:
-                        continue
-                    try:
-                        blocks.append(self.__analysis(domain))
-                    except Exception:
-                        continue
-                break
+    # host 模式
+    # 仅当 IP 为"黑洞地址"（0.0.0.0 / 127.x / :: / ::1）时才视为拦截。
+    # 指向真实 IP 的条目（如 "20.200.245.247 github.com"）是 hosts 加速/重定向，
+    # 在 AdGuard Home 中含义是改写解析结果，而不是拦截，必须忽略。
+    def __resolveHost(self, line) -> List[Tuple[str, str]]:
+        blocks = []
+        try:
+            line = line.replace('\t', ' ').strip()
+            if not line or line[0] in '#!':
+                return blocks
+            if '#' in line:
+                line = line[:line.index('#')].strip()
+            row = line.split()
+            if len(row) < 2 or not self.__is_ip_address(row[0]):
+                return blocks
+            ip = ipaddress.ip_address(row[0])
+            if not (ip.is_unspecified or ip.is_loopback):
+                return blocks
+            for domain in row[1:]:
+                if domain in {
+                    'localhost',
+                    'localhost.localdomain',
+                    'local',
+                    '0.0.0.0',
+                    '127.0.0.1',
+                    '::1',
+                    '::',
+                    'ip6-localhost',
+                    'ip6-loopback',
+                }:
+                    continue
+                if domain.startswith('*.') and '*' not in domain[2:]:
+                    domain = domain[2:]   # 与 ||*.example.org^ 的既有处理保持一致
+                elif '*' in domain:
+                    continue
+                try:
+                    blocks.append(self.__analysis(domain))
+                except Exception:
+                    continue
         except Exception as e:
             logger.error("%s"%(e))
-        finally:
-            return blocks
+        return blocks
 
     # 从 filter 规则中找出包含的域名
     def __resolveFilterDomain(self, filter) -> Tuple[str, FilterDomainInfo]:
@@ -654,6 +654,12 @@ class Resolver(object):
                 if len(line) < 1:
                     continue
 
+                # filter 类型的上游中夹杂的 hosts 格式行，交给 hosts 解析，避免整行被当成域名
+                if self._HOSTS_LINE.match(line):
+                    for fld, sub in self.__resolveHost(line):
+                        blockDict.setdefault(fld, set()).add(sub)
+                    continue
+
                 block,unblock,filter = self.__resolveFilter(line)
                 
                 if block:
@@ -669,4 +675,5 @@ class Resolver(object):
                 if filter:
                     filterDict[filter[0]] = filter[1]
         logger.info("%s: block=%d, unblock=%d, filter=%d"%(rule.name,len(blockDict),len(unblockDict),len(filterDict)))
+        return blockDict,unblockDict,filterDict
         return blockDict,unblockDict,filterDict

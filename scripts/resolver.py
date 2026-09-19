@@ -676,4 +676,3 @@ class Resolver(object):
                     filterDict[filter[0]] = filter[1]
         logger.info("%s: block=%d, unblock=%d, filter=%d"%(rule.name,len(blockDict),len(unblockDict),len(filterDict)))
         return blockDict,unblockDict,filterDict
-        return blockDict,unblockDict,filterDict

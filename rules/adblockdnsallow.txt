@@ -3,10 +3,10 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的放行（白名单/误杀修复）规则，每 12 小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、jiekouAD、AWAvenue Ads Rule、anti-AD、HalfLife、DD-AD、晴雅广告拦截规则、SMAdHosts、那个谁520规则、TTDNS、茯苓广告规则、HG、DNS-Kuner拦截列表、Cats-Team/AdRules规则、SmartTV、HaGeZi's Apple Tracker Blocklist、HaGeZi's Xiaomi Tracker Blocklist、HaGeZi's Vivo Tracker Blocklist、HaGeZi's Samsung Tracker Blocklist、HaGeZi's OPPO & Realme Tracker Blocklist、茯苓允许列表、DD-AD允许列表、那个谁520广告白名单、DNS-Kuner放行列表。
 ! Homepage: https://github.com/dongone33/adblockfilters-modified
 ! Source: https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnsallow.txt
-! Version: 20260919220530
-! Last modified: 2026/09/19 22:05:30
-! Unblocked domains: 2578
-! Regex rules: 36
+! Version: 20260919231509
+! Last modified: 2026/09/19 23:15:09
+! Unblocked domains: 2579
+! Regex rules: 3
 !
 @@||res.mall.10010.cn^
 @@||u.10010.cn^
@@ -363,7 +363,6 @@
 @@||animerep.com^
 @@||m.anjuke.com^
 @@||www.anjuke.com^
-@@||annas-archive.org^
 @@||down.anticheatexpert.com^
 @@||app-measurement.com^
 @@||click.appcast.io^
@@ -392,6 +391,7 @@
 @@||stats.gc.apple.com^
 @@||store.apple.com^
 @@||support.apple.com^
+@@||time.apple.com^
 @@||www.apple.com^
 @@||xp.apple.com^
 @@||www.apple.com.cn^
@@ -621,6 +621,7 @@
 @@||target.clickfunnels.com^
 @@||clickiocdn.com^
 @@||clicktale.net^
+@@||clientservices.googleapis.com^
 @@||clips4sale.com^
 @@||www.cloudflare-cn.com^
 @@||cloudflare-dns.com^
@@ -750,6 +751,7 @@
 @@||v.douyin.com^
 @@||webcast-open.douyin.com^
 @@||www.douyin.com^
+@@||douyincdn.com^
 @@||p1.douyinpic.com^
 @@||p1-sign.douyinpic.com^
 @@||p11.douyinpic.com^
@@ -837,10 +839,13 @@
 @@||facebook.com^
 @@||fanqienovel.com^
 @@||c.fantia.jp^
+@@||scontent.xx.fbcdn.net^
 @@||static.xx.fbcdn.net^
+@@||video.xx.fbcdn.net^
 @@||www.fbsbx.com^
 @@||dsp.fcbox.com^
 @@||hugelog.fcbox.com^
+@@||fcm.googleapis.com^
 @@||survey.feelgood.cn^
 @@||fp-it.fengkongcloud.com^
 @@||static.fengkongcloud.com^
@@ -926,10 +931,13 @@
 @@||clients4.google.com^
 @@||developers.google.com^
 @@||images.google.com^
+@@||mtalk.google.com^
+@@||play.google.com^
 @@||www.google.com^
 @@||images.google.com.hk^
 @@||www.google.com.hk^
 @@||googleadservices.com^
+@@||googleapis.com^
 @@||googletagmanager.com^
 @@||blogger.googleusercontent.com^
 @@||images1-focus-opensocial.googleusercontent.com^
@@ -1360,9 +1368,10 @@
 @@||www.mhzd.net^
 @@||resolver.gslb.mi-idc.com^
 @@||mi-img.com^
-@@||api.io.mi.com^
 @@||api.jr.mi.com^
+@@||home.mi.com^
 @@||i.mi.com^
+@@||io.mi.com^
 @@||mivideo.g.mi.com^
 @@||t1.g.mi.com^
 @@||video.kts.g.mi.com^
@@ -1394,6 +1403,7 @@
 @@||sdk.mihoyo.com^
 @@||uploadstatic.mihoyo.com^
 @@||beian.miit.gov.cn^
+@@||api.mijia.tech^
 @@||static-web.mimikko.cn^
 @@||webapps.mimikko.cn^
 @@||www.mimikko.cn^
@@ -1546,6 +1556,7 @@
 @@||registry.npmmirror.com^
 @@||click.members.nra.org^
 @@||www.ntdtv.com^
+@@||pool.ntp.org^
 @@||www.nuomiphp.com^
 @@||hcjs.nv7s.com^
 @@||hctn.nv7s.com^
@@ -1598,7 +1609,6 @@
 @@||push.oray.com^
 @@||www.oreans.com^
 @@||s3-us-east-1.ossfiles.com^
-@@||ad.ourgame.com^
 @@||p16-tiktokcdn-com.akamaized.net^
 @@||log-api.pangolin-sdk-toutiao-b.com^
 @@||log-api.pangolin-sdk-toutiao.com^
@@ -1630,18 +1640,7 @@
 @@||hm-h.phncdn.com^
 @@||iv-h.phncdn.com^
 @@||ss.phncdn.com^
-@@||api.pinduoduo.com^
-@@||cdn.pinduoduo.com^
-@@||download.pinduoduo.com^
-@@||lp.pinduoduo.com^
-@@||lpcdn.pinduoduo.com^
-@@||m.pinduoduo.com^
-@@||mai.pinduoduo.com^
-@@||mcdn.pinduoduo.com^
-@@||mms.pinduoduo.com^
-@@||mms-static.pinduoduo.com^
-@@||pifa.pinduoduo.com^
-@@||www.pinduoduo.com^
+@@||pinduoduo.com^
 @@||cdn.ping0.cc^
 @@||www.ping0.cc^
 @@||ads.pinterest.com^
@@ -1998,6 +1997,7 @@
 @@||39d0825d09f05.cdn.sohucs.com^
 @@||e3f49eaa46b57.cdn.sohucs.com^
 @@||click.email.sonos.com^
+@@||pic.baike.soso.com^
 @@||api.soulapp.cn^
 @@||api-chat.soulapp.cn^
 @@||api-pay.soulapp.cn^
@@ -2109,6 +2109,7 @@
 @@||cloudcache.tencent-cloud.cn^
 @@||qcloudimg.tencent-cloud.cn^
 @@||apd-pcdniegwzlogin.teg.tencent-cloud.net^
+@@||apd-pcdnwxnat.teg.tencent-cloud.net^
 @@||apd-pcdnwxstat.teg.tencent-cloud.net^
 @@||console.cloud.tencent.com^
 @@||iaas.cloud.tencent.com^
@@ -2587,38 +2588,5 @@
 @@||s7.zuimeitianqi.com^
 @@||img.zuoyebang.cc^
 @@/.*weixin.*/
-@@//aka-cdn-ns.adtechus.com/images/$domain=cinemablend.com
-@@/:\/\/.*[.]wp[.]pl\/[a-z0-9_]+[.][a-z]+[/:&?]?/
-@@/[Ww]eb[Tt]racking/$~subdocument,domain=ups.com
-@@/\.(gif|jpg|png|svg).*#.*\/ad\//$image,domain=mizugigurabia.com|aimasummd.blog.fc2.com|newssokuhou666.blog.fc2.com|touhoudougamatome.blog.fc2.com|metamani.blog15.fc2.com|youkaiwatch2345.blog.fc2.com|dokuo666.blog98.fc2.com|mysafe.stisda.ac.id|metamani.blog15.fc2.com|link.technics-goods.info|gfilex.blogspot.com|codare.fun|ads-ti9ni4.blogspot.com|thelibrarydigital.blogspot.com|www-daftarharga.blogspot.com|mediapemersatubangsa.com|ear-phone-review.com|tienganhedu.com|itdmusics.com|burnbutt.com|valuable.hatenablog.com|leechpremium.net|lib.hatenablog.com|gametter.com|mini.surveyenquete.net|opatil.com
-@@/\.(quest|shop|autos)\/.*\./$script,xmlhttprequest,domain=rbtv77.*|live-streamfootball.*|superabbit77.*|superabbit33.*|superdom77.*|superlee77.*|superleo77.*|superargo77.*|superbarca77.*|linelocatemfsn.*|homebasis4d.*|mindmotion93y8.*|monkeynecktj4w.*|masterenjoyao.*|differenceprimitive85p.*|blewdiffera3j2.*|strangernervousql.*|leadmorning4ivn.*|somehowrockyng.*|currentcolorq2dv.*|determinemousecshe.*|publicspeed5c.*|limiteddollqjc.*
-@@/\/[a-z0-9]{8}\/[a-zA-Z0-9_-]{200,900}/$xmlhttprequest,third-party,match-case,stealth=referrer,domain=player.videasy.*|vidup.to|vidfast.vc|vidking.net|111movies.net|vidcore.net
-@@/\/[js].?[js]\/.*\.js/$script,xhr,domain=rbtv77.*|live-streamfootball.*|superabbit77.*|superabbit33.*|superdom77.*|superlee77.*|superleo77.*|superargo77.*|superbarca77.*|linelocatemfsn.*|homebasis4d.*|mindmotion93y8.*|monkeynecktj4w.*|masterenjoyao.*|differenceprimitive85p.*|blewdiffera3j2.*|strangernervousql.*|leadmorning4ivn.*|somehowrockyng.*|currentcolorq2dv.*|determinemousecshe.*|publicspeed5c.*|limiteddollqjc.*
-@@/\/[js].?[js]\/.*\.js/$script,xmlhttprequest,domain=rbtv77.*|live-streamfootball.*|superabbit77.*|superabbit33.*|superdom77.*|superlee77.*|superleo77.*|superargo77.*|superbarca77.*|linelocatemfsn.*|homebasis4d.*|mindmotion93y8.*|monkeynecktj4w.*|masterenjoyao.*|differenceprimitive85p.*|blewdiffera3j2.*|strangernervousql.*|leadmorning4ivn.*|somehowrockyng.*|currentcolorq2dv.*|determinemousecshe.*|publicspeed5c.*|limiteddollqjc.*
-@@/\/\d\d\d\d\d$/$xmlhttprequest,script,other,third-party,domain=jujmanga.com
-@@/\/\d{5,7}$/$domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
-@@/\/cdn\/(files|zone)\d?\//$media,third-party,match-case,stealth=referrer,domain=kimoitv.com
 @@/^(tiebapic|tiebac)\.baidu\.com$/
 @@/^down(pack|app)\.baidu\.com$/
-@@/^https:\/\/127\.0\.0\.1:10039\/\?callback=jQuery[0-9]{20,}_[0-9]{13}&HW&[A-z0-9]{22}==&&0&0&/$stealth=referrer
-@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/20\d{4}\/\d{2}\/\d{9}\/(?:original|thumbs_\d{2})\/\d{0,2}(?:\(m=e[0-9A-Za-z]{5,7}(?:aaaa)?\)\(mh=[-_0-9A-Za-z]{16}\))?\d{0,2}\.jpg$/$image,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/thumbs169l\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{32}(?:-\d)?\/[0-9a-f]{32}\.\d{1,2}\.jpg$/$image,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/thumbs_5\/\d{1,2}(?:\(m=e[0-9A-Za-z]{5,7}aaaa\)\(mh=[-_0-9A-Za-z]{16}\))?\.jpg$/$image,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/[a-z]?jz\/(?:[0-9a-f]\/){3,5}[0-9a-f]{42}-?(?:\d{2,3}|(?:(?:\d{3,4}-){3}h264)?\.(?:mp4-\d{1,2}|flv-\d))\.jpg$/$image,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/sb\/t\/\d{6,8}\/(?:\d|[0-9a-f]{2})\/(?:\d|[0-9a-f]{2})\/w:300\/t\d{1,2}-enh\/(?:[0-9a-z]+-)*[0-9a-z]+\.jpg$/$image,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/[a-z]\.pussyspace\.(?:com|net)\/xv7\/[0-9a-f]{8}-(?:[0-9a-f]{4}-){3}[0-9a-f]{12}\/\d\/xv_\d{1,2}_t\.jpg$/$image,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/devuploads\.com\/[a-z]+\/[a-z0-9]{24}\/[^\/]+\.(js|gif)$/$domain=devuploads.com
-@@/^https:\/\/imgbb.zip\/ib\/[a-z0-9]{15}_[0-9]{10}\.jpg$/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|new2.vegamovies.futbol|rogmovies.cv|xprimehub.bond
-@@/^https:\/\/mshale\.com\/[a-f0-9]{8}\/[a-zA-Z0-9]+$/$match-case,stealth=referrer|searchqueries
-@@/^https:\/\/www\.[a-z]{7,14}\.com\/[a-z]{1,4}\.js/$script,3p,domain=shinden.pl,badfilter
-@@/^https:\/\/www\.[a-z]{7,14}\.com\/[a-z]{1,4}\.js/$script,third-party,domain=shinden.pl,badfilter
-@@/^https:\/\/www\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_3a-z]{2,16}\.jpg$/$image,~3p,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/www\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_3a-z]{2,16}\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/www\.pussyspace\.(?:com|net)\/upload\/poster_img_url\/par\/c3Rhci9[%0-9A-Za-z]{16,32}&size_width\/par\/160\/l\.jpg$/$image,domain=pussyspace.com|pussyspace.net
-@@/^https?.*\..*\.ch\/.*\/(ad|adtech|pubblicita|adverts|ad-random|adSponsors|banner-ad|banman|native-ad|advertise|advert1|bg_ads|adengine|adspot|baseAd|coread)\/.*\/.*=.*&/$xmlhttprequest,other,script,domain=tio.ch
-@@/^https?:\/\/[0-9a-z]+\.cloudfront\.net\/\?[a-z]+=[0-9]+$/$domain=workink.click,xmlhttprequest
-@@/clickn(download|upload)\.[a-z]{3,5}/$script,xhr,domain=clickndownload.*|clicknupload.*
-@@/clickn(download|upload)\.[a-z]{3,5}/$script,xmlhttprequest,domain=clickndownload.*|clicknupload.*
-@@/https?:\/\/(www\.)?sonixgvn\.net\/.{1,15}\.js$/$script,~3p,domain=sonixgvn.net
-@@/https?:\/\/(www\.)?sonixgvn\.net\/.{1,15}\.js$/$script,~third-party,domain=sonixgvn.net
-@@/stream/*.m3u8$stealth=referrer,domain=/betanotv\d+\.site$/

@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的放行（白名单/误杀修复）规则，每 12 小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、jiekouAD、AWAvenue Ads Rule、anti-AD、HalfLife、DD-AD、晴雅广告拦截规则、SMAdHosts、那个谁520规则、TTDNS、茯苓广告规则、HG、DNS-Kuner拦截列表、Cats-Team/AdRules规则、SmartTV、HaGeZi's Apple Tracker Blocklist、HaGeZi's Xiaomi Tracker Blocklist、HaGeZi's Vivo Tracker Blocklist、HaGeZi's Samsung Tracker Blocklist、HaGeZi's OPPO & Realme Tracker Blocklist、茯苓允许列表、DD-AD允许列表、那个谁520广告白名单、DNS-Kuner放行列表。
 ! Homepage: https://github.com/dongone33/adblockfilters-modified
 ! Source: https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnsallow.txt
-! Version: 20260924140519
-! Last modified: 2026/09/24 14:05:19
-! Unblocked domains: 2586
+! Version: 20260925103416
+! Last modified: 2026/09/25 10:34:16
+! Unblocked domains: 2579
 ! Regex rules: 3
 !
 @@||res.mall.10010.cn^
@@ -363,7 +363,6 @@
 @@||animerep.com^
 @@||m.anjuke.com^
 @@||www.anjuke.com^
-@@||annas-archive.org^
 @@||down.anticheatexpert.com^
 @@||app-measurement.com^
 @@||click.appcast.io^
@@ -942,9 +941,6 @@
 @@||blogger.googleusercontent.com^
 @@||images1-focus-opensocial.googleusercontent.com^
 @@||manifest.googlevideo.com^
-@@||r3---sn-a5mlrn7r.googlevideo.com^
-@@||r4---sn-a5meknek.googlevideo.com^
-@@||r4---sn-qxo7rn7e.googlevideo.com^
 @@||r5---sn-4g5ednsl.googlevideo.com^
 @@||gstatic.com^
 @@||game.gtimg.cn^
@@ -1211,7 +1207,6 @@
 @@||www.ke.com^
 @@||keepassxc.org^
 @@||fc.kejiweixun.com^
-@@||kemono.party^
 @@||advert.kf5.com^
 @@||click.klarna.de^
 @@||klpbbs.com^
@@ -2146,7 +2141,6 @@
 @@||site.tiantiantiaosheng.com^
 @@||www.tiantiantiaosheng.com^
 @@||click.mailing.ticketmaster.com^
-@@||tiktokcdn.com^
 @@||tiktokv.com^
 @@||tinyurl.com^
 @@||tj.gov.cn^
@@ -2421,7 +2415,6 @@
 @@||xn--cp3a08l.com^
 @@||xn--l6qx3l9s1a.com^
 @@||xn--mes358aby2apfg.com^
-@@||www.xn--sss604efuw.com^
 @@||xn--vhq3x51dn9bivas49nfps.com^
 @@||cdn77-pic.xnxx-cdn.com^
 @@||cdn77-vid.xnxx-cdn.com^

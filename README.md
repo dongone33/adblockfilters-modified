@@ -125,7 +125,6 @@
 | 茯苓广告规则 | filter | [原始链接](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/茯苓广告规则.txt) | 653 | 2026/09/19 |
 | HG | filter | [原始链接](https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/HG.txt) | 13030 | 2026/09/25 |
 | DNS-Kuner拦截列表 | dns | [原始链接](https://raw.githubusercontent.com/Kuner-mw/DNS-Kuner/main/FilterRules/blacklist.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/DNS-Kuner拦截列表.txt) | 151 | 2026/09/19 |
-| Cats-Team/AdRules规则 | dns | [原始链接](https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/Cats-Team_AdRules规则.txt) | 202179 | 2026/09/25 |
 | SmartTV | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/refs/heads/main/filters/other/filter_7_SmartTVBlocklist/filter.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/SmartTV.txt) | 169 | 2026/09/19 |
 | 10007_auto混合规则 | filter | [原始链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/adb.txt) | [加速链接](-) | - | - |
 | DNS-Blocklists PRO mini | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.mini.txt) | [加速链接](-) | - | - |

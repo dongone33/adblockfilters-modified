@@ -128,6 +128,7 @@
 | Cats-Team/AdRules规则 | dns | [原始链接](https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/Cats-Team_AdRules规则.txt) | 202179 | 2026/09/25 |
 | SmartTV | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/refs/heads/main/filters/other/filter_7_SmartTVBlocklist/filter.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/SmartTV.txt) | 169 | 2026/09/19 |
 | 10007_auto混合规则 | filter | [原始链接](https://raw.githubusercontent.com/lingeringsound/10007_auto/master/adb.txt) | [加速链接](-) | - | - |
+| DNS-Blocklists PRO mini | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.mini.txt) | [加速链接](-) | - | - |
 | 茯苓允许列表 | filter | [原始链接](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingAllowList.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/茯苓允许列表.txt) | 1313 | 2026/09/19 |
 | DD-AD允许列表 | filter | [原始链接](https://raw.githubusercontent.com/afwfv/DD-AD/refs/heads/release/DD-AD.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/DD-AD允许列表.txt) | 1636 | 2026/09/19 |
 | 那个谁520广告白名单 | filter | [原始链接](https://raw.githubusercontent.com/qq5460168/666/master/allow.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/那个谁520广告白名单.txt) | 3704 | 2026/09/25 |

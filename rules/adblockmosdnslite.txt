@@ -3,9 +3,9 @@
 # Description: 适用于 MosDNS v5 的去广告合并规则，每 12 小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、jiekouAD、AWAvenue Ads Rule、anti-AD、HalfLife、DD-AD、晴雅广告拦截规则、SMAdHosts、那个谁520规则、TTDNS、茯苓广告规则、HG、DNS-Kuner拦截列表、Cats-Team/AdRules规则、SmartTV、HaGeZi's Apple Tracker Blocklist、HaGeZi's Xiaomi Tracker Blocklist、HaGeZi's Vivo Tracker Blocklist、HaGeZi's Samsung Tracker Blocklist、HaGeZi's OPPO & Realme Tracker Blocklist、茯苓允许列表、DD-AD允许列表、那个谁520广告白名单、DNS-Kuner放行列表。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/dongone33/adblockfilters-modified
 # Source: https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockmosdnslite.txt
-# Version: 20260925103418
-# Last modified: 2026/09/25 10:34:18
-# Blocked domains: 11275
+# Version: 20260925140730
+# Last modified: 2026/09/25 14:07:30
+# Blocked domains: 11268
 #
 full:sccdn.002lzj.com
 full:m.0033.com
@@ -44,6 +44,7 @@ full:0x5.me
 full:0xr7ii3df.com
 full:1.56.98.184
 full:1000su.com
+full:1717.1000uc.com
 full:enrichgw.10010.com
 full:jf.10010.com
 full:nishub1.10010.com
@@ -115,6 +116,7 @@ full:114.118.67.110
 full:114.132.216.51
 full:1.11467.com
 full:public1.114dns.com
+full:114la.com
 full:appversion.115.com
 full:tg.1155t.cn
 full:1156.com
@@ -197,6 +199,7 @@ full:ad.mcloud.139.com
 full:r.139.com
 full:lyapi.1391.com
 full:mhjk.1391.com
+full:ywrcqa.13wmaz.com
 full:140.210.27.51
 full:14x.cn
 full:d.14yaa.com
@@ -370,7 +373,6 @@ full:2345.cn
 full:2345.com
 full:2345at.com
 full:business-syh-cdn.2345ii.com
-full:m.23txt.com
 full:23ww.com
 full:m.24ihe.cn
 full:24klm.cn
@@ -383,6 +385,7 @@ full:op.262j.com
 full:newpay.263pk.com
 full:okpay.263pk.com
 full:268mob.cn
+full:26a.cn
 full:26am.cn
 full:26zsd.cn
 full:27j.vip
@@ -663,6 +666,7 @@ full:47.112.197.107
 full:47.114.83.236
 full:47.117.129.88
 full:47.97.233.30
+full:12031628.489543.com
 full:4a9.cn
 full:a.4aqq.com
 full:4gq.cn
@@ -670,8 +674,6 @@ full:4h44.com
 full:jb.4hw.com.cn
 full:js.4hw.com.cn
 full:ssp.4hw.com.cn
-full:k7en84ci.4jaw736jzv5d.com
-full:u4qsxr2q.4jaw736jzv5d.com
 full:m.4joon8.cn
 full:mo.4k9b.cn
 full:4nfesm3itf.com
@@ -906,6 +908,7 @@ full:bdcdncnc.inter.71edge.com
 full:data-video.71edge.com
 full:flv-bdplay.inter.71edge.com
 full:gz9cm.71edge.com
+full:0y3b.720lu.com
 full:7277.cn
 full:73336zubo25326.com
 full:hollg8023.745c.cn
@@ -944,6 +947,7 @@ full:m.7wx8f.cn
 full:cp.7y7.com
 full:file.7youxi.com
 full:game.7youxi.com
+full:7zr.cn
 full:8.130.25.4
 full:8.134.41.206
 full:8.142.145.157
@@ -968,6 +972,7 @@ full:dodi.86zhnc.cn
 full:b17.8794.cn
 full:88362zubo95838.com
 full:api1.888zy.cn
+full:1ei9.8890.com
 full:cdn4-live-ssl.a.88cdn.com
 full:pull-stream3-live-ssl.a.88cdn.com
 full:88la.la
@@ -1227,7 +1232,6 @@ full:impression.aflink.com
 full:apk-upgrade.afunapp.com
 full:cross-ad-api.afunapp.com
 full:think.afunapp.com
-full:0cpb.ag8.com
 full:ad.aggrx.com
 full:agoda.cn
 full:ap-oversea-tls.agora.io
@@ -1963,7 +1967,6 @@ full:loading.baofeng5.baofeng.net
 full:nclog.mars.baofeng.net
 full:nclog.pad.baofeng.net
 full:onlinetips.baofeng5.baofeng.net
-full:area.baomihua.com
 full:lib.baomitu.com
 full:help.baotangwang.cn
 full:barrister.org.cn
@@ -2079,6 +2082,7 @@ full:oss.bei-min.cn
 full:yy.bei-min.cn
 full:beigedi.com
 full:ad.beihai365.com
+full:mgr.beinarun.com
 full:beizi.biz
 full:bendibao.com
 full:smetrics.benefitcosmetics.com.cn
@@ -2657,6 +2661,7 @@ full:coco988.cn
 full:code222.com
 full:service.codeffect.top
 full:codenow.cn
+full:1.codesdq.com
 full:codesoftchina.com
 full:reportwest-midas.codmwest.com
 full:imageads.codoon.com
@@ -2700,8 +2705,6 @@ full:dialer.cdn.cootekservice.com
 full:ws2.cootekservice.com
 full:coreldrawchina.com
 full:n.cosbot.cn
-full:img.cosman107.top
-full:img.cospa3600.top
 full:coumie.top
 full:cp7iys8fp.com
 full:cpc.cc
@@ -2723,7 +2726,6 @@ full:crf999.cn
 full:criticalltech.com
 full:ocsp.crlocsp.cn
 full:crossoverchina.com
-full:crwan.applinzi.com
 full:crystalmart.cn
 full:cs-bailing.com.cn
 full:gg.cs090.com
@@ -3040,7 +3042,6 @@ full:sp.dnqc.com
 full:vhs.wwstat.com.eo.dnse0.com
 full:gbfek.dfcfw.com.eo.dnse1.com
 full:node22.aizhantj.com.eo.dnse1.com
-full:3u4k9hfbq4sz.fvsfty6rydweq.jcdixdh.com.eo.dnse4.com
 full:ab.efjkva.com.eo.dnse4.com
 full:xtyj.lmdbw.com.pages.dnsoe5.com
 full:pdns.dnspod.cn
@@ -3157,7 +3158,6 @@ full:tower.douyucdn.cn
 full:dotcounter.douyutv.com
 full:down-fj.trafficmanager.net
 full:res.doyea.cn
-full:s.doyo.cn
 full:dpjzzgw.cn
 full:dpurl.cn
 full:daqi.dqapi.cn
@@ -3246,6 +3246,7 @@ full:ad.dzwindows.com
 full:ad.dzwww.com
 full:life.e0575.com
 full:e399.com
+full:e5r.cn
 full:clicksys.e7j.cn
 full:h5.eagllwin.com
 full:earmasterchina.cn
@@ -4063,7 +4064,6 @@ full:guomob.com
 full:link.guoqi365.com
 full:mo.gushiji.cc
 full:ggw.gusuwang.com
-full:madujs.guyouyiyao.com
 full:guzsjdl.cn
 full:redirector.gvt1.com
 full:rr1---sn-ni5eln7z.gvt1.com
@@ -4075,7 +4075,6 @@ full:router.gwdang.com
 full:res.gwifi.com.cn
 full:cmsmanage-siteapi.gwm.com.cn
 full:fpb1.gxfin.com
-full:pvsa.gxfugy.cn
 full:gxgbvmg.cn
 full:gxhzv.cn
 full:gxzg.org.cn
@@ -4158,6 +4157,7 @@ full:happybao.com.cn
 full:animal-graylog.happyelements.cn
 full:et-api.happyelements.com
 full:log.dc.cn.happyelements.com
+full:hapyak.com
 full:hapying.com
 full:hashnest.com
 full:a.hbf23.cn
@@ -4730,7 +4730,6 @@ full:file3.ih5.cn
 full:yinxing.ihaoma.icu
 full:yinxing2.ihaoma.icu
 full:ihclam.cn
-full:d288c140b.n.iiauuw.com
 full:fd70eae1.n.iiauuw.com
 full:api.iimedia.cn
 full:file.iixlz.cn
@@ -4765,7 +4764,6 @@ full:log-h5.imdada.cn
 full:windriversfiles.imeitools.com
 full:tj.img4399.com
 full:stat.titan.imgo.tv
-full:imgoss820.top
 full:imindmap.cc
 full:imlb2c.com
 full:ad.imlianai.com
@@ -5081,7 +5079,6 @@ full:xxcc.jdjdbdd.cn
 full:jdjdodd.cn
 full:jdnlynb.cn
 full:aks.jdpay.com
-full:jdpay01.com
 full:jdpm.net.cn
 full:pic.jdunion.com
 full:jesgoo.com
@@ -5349,7 +5346,6 @@ full:dynamicad.kfc.com.cn
 full:j.kfd3sm2c.com
 full:p3fx.kgimg.com
 full:s4fx.kgimg.com
-full:khgj.cn
 full:api.kickoffo.site
 full:dl.kinbest.cn
 full:kingdeecn.cn
@@ -5416,12 +5412,12 @@ full:a.koudai.com
 full:tj.koudaitong.com
 full:b.kouke5.com
 full:short.kouxinapp.com
-full:static.kouxincdn.com
 full:kpmbl.cn
 full:bundle.kpzip.com
 full:mininews.kpzip.com
 full:kq7.cn
 full:kqg8jh8rk.com
+full:ywrcqa.krem.com
 full:photo.krryh.cn
 full:5litwb.bqcxk.cn.download.ks-cdn.com
 full:fvk7bz.innittapp.com.download.ks-cdn.com
@@ -5451,7 +5447,6 @@ full:onlyv4.kspays.com
 full:d3-kkd.a.kspkg.com
 full:tx.a.kspkg.com
 full:ksrsy.com
-full:ubr4hh1419b59q.kswidj.com
 full:api.kingdata.ksyun.com
 full:centertime.ksyun.com
 full:hdns.ksyun.com
@@ -5932,7 +5927,6 @@ full:s.ludashi.com
 full:ssl-hw-pc.ludashi.com
 full:wan.ludashi.com
 full:lulumao.com.cn
-full:cdn.lumayun.top
 full:lumeo.cn
 full:logs-service.luobo.cn
 full:luolikong.net
@@ -6388,6 +6382,7 @@ full:apppubliclogs-ext.mop.com
 full:moquanad.com
 full:ad-api.morefreegame.com
 full:ads.morefreegame.com
+full:132f8fbb.morencdn1.com
 full:mores.motowoo.com
 full:motsjnv.cn
 full:motuopj.cn
@@ -6695,6 +6690,7 @@ full:t.nwd.cn
 full:bd1.nxing.cn
 full:zb.nxing.cn
 full:target.nxp.com.cn
+full:nzl09250oa.com
 full:m.o4hpc.cn
 full:o5y2zd1lq8.com
 full:o6j.cn
@@ -6814,7 +6810,6 @@ full:c.bxb.oupeng.com
 full:img-ad.oupeng.com
 full:r.bxb.oupeng.com
 full:startup.oupeng.com
-full:ad.ourgame.com
 full:apps.outfit7.com
 full:apps2.outfit7.com
 full:at-af.outfit7.com
@@ -7946,6 +7941,7 @@ full:x.sf.cn
 full:logstat.t.sfht.com
 full:sfilm.com
 full:app.sfplay.net
+full:stats.sg-light-edge.com
 full:sg92.com
 full:cdn2.sgekxph.cn
 full:sglyd.cn
@@ -8341,6 +8337,7 @@ full:srgnmsrg.com
 full:srqxnvjdd.com
 full:data.ssports.com
 full:show.ssports.com
+full:3.ssqzj.com
 full:s2-111226.ssrcdn.com
 full:s2-11583.ssrcdn.com
 full:ad-static.ssread.cn
@@ -9622,7 +9619,6 @@ full:log1.wanmei.com
 full:log2.wanmei.com
 full:k1.wanwenwan.cn
 full:h5.wanxinsy.cn
-full:d.wanyouxi7.com
 full:adnotify.wanzi.com
 full:media-datahub.wanzi.com
 full:media-show.wanzi.com
@@ -9769,7 +9765,6 @@ full:wj8i1rlp2b.com
 full:wjgglm.com
 full:n.wjr1x.cn
 full:wjxcdn.com
-full:h1.wk2.com
 full:kandian.wkandian.com
 full:wkanx.com
 full:lf-wkrs.wkbrowser.com
@@ -10327,7 +10322,6 @@ full:cmm.xmfish.com
 full:xmlsxar.cn
 full:sortlink.xmnth.cn
 full:data.xmseeyouyima.com
-full:img.xmshengchao.com
 full:hd.xmy5g.cn
 full:xmywlyh.cn
 full:xn--2qu92fhtxsxexqab.xn--fiqs8s
@@ -10561,10 +10555,9 @@ full:analytics.yicai.com
 full:yicha.cn
 full:yiche.com
 full:api.yidaomobi.com
+full:0vw1.yide.com
 full:11h3.yide.com
-full:m0kb.yide.com
-full:m6rt.yide.com
-full:twjv.yide.com
+full:28w1.yide.com
 full:imagelx.yidianzixun.com
 full:l.yidianzixun.com
 full:lx-upload-log.yidianzixun.com
@@ -10617,7 +10610,6 @@ full:sf.ykimg.com
 full:sub.ykimg.com
 full:yklfg.cn
 full:ykotyeo.cn
-full:12uo.yl.ag
 full:yl.vip
 full:e.yl64a.cn
 full:m.yl64a.cn
@@ -10671,6 +10663,7 @@ full:union.youdao.com
 full:wow.youdao.com
 full:wow-activity.youdao.com
 full:ydpushserver.youdao.com
+full:youdaoads.com
 full:youday.cn
 full:static.youdm.cn
 full:youhuiguan.com
@@ -10763,7 +10756,6 @@ full:wenxue.youzhicn.com
 full:youzu.com
 full:yoyi.tv
 full:analysis.yozocloud.cn
-full:photo.ypkjq.cn
 full:yppw666.cn
 full:photo.yqydjr.cn
 full:yrqwnc.cn
@@ -10829,6 +10821,7 @@ full:yw78.cn
 full:yw800.com.cn
 full:ywkkmze.cn
 full:gw.d.ywopt.com
+full:123.ywxww.net
 full:s5.yx-s.com
 full:s8.yx-s.com
 full:r.yx-s.net

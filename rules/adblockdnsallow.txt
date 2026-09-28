@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的放行（白名单/误杀修复）规则，每 12 小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、jiekouAD、AWAvenue Ads Rule、anti-AD、HalfLife、DD-AD、晴雅广告拦截规则、SMAdHosts、那个谁520规则、TTDNS、茯苓广告规则、HG、DNS-Kuner拦截列表、SmartTV、10007_auto混合规则、DNS-Blocklists PRO mini、茯苓允许列表、DD-AD允许列表、那个谁520广告白名单、DNS-Kuner放行列表。
 ! Homepage: https://github.com/dongone33/adblockfilters-modified
 ! Source: https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnsallow.txt
-! Version: 20260927144357
-! Last modified: 2026/09/27 14:43:57
-! Unblocked domains: 2550
+! Version: 20260928143927
+! Last modified: 2026/09/28 14:39:27
+! Unblocked domains: 2579
 ! Regex rules: 3
 !
 @@||res.mall.10010.cn^
@@ -89,6 +89,7 @@
 @@||loadingbaycn.webapp.163.com^
 @@||m.163.com^
 @@||mail.163.com^
+@@||mc.163.com^
 @@||mirrors.163.com^
 @@||mob.163.com^
 @@||moba.163.com^
@@ -171,6 +172,7 @@
 @@||jia.360.cn^
 @@||m.360.cn^
 @@||mall.360.cn^
+@@||mdm.openapi.360.cn^
 @@||mse.360.cn^
 @@||mvconf.f.360.cn^
 @@||passport.360.cn^
@@ -233,6 +235,7 @@
 @@||m.video.9ddm.com^
 @@||a.9game.cn^
 @@||image.9game.cn^
+@@||media.9game.cn^
 @@||ugame.9game.cn^
 @@||www.9game.cn^
 @@||acg02.cc^
@@ -250,6 +253,7 @@
 @@||adidasapp.api.adidas.com.cn^
 @@||app.adjust.com^
 @@||adnmb3.com^
+@@||mediation.adnxs.com^
 @@||ereg.adobe.com^
 @@||na1r.services.adobe.com^
 @@||ads.finance^
@@ -295,6 +299,7 @@
 @@||www.alidns.com^
 @@||click.aliexpress.com^
 @@||cdn.aligames.com^
+@@||member.aligames.com^
 @@||ynuf.alipay.com^
 @@||alistgo.com^
 @@||ads.console.aliyun.com^
@@ -424,6 +429,7 @@
 @@||dss0.bdstatic.com^
 @@||dss2.bdstatic.com^
 @@||exp-new.bdstatic.com^
+@@||mbdp02.bdstatic.com^
 @@||mipcache.bdstatic.com^
 @@||mss0.bdstatic.com^
 @@||nd-static.bdstatic.com^
@@ -453,6 +459,8 @@
 @@||game.bilibili.com^
 @@||live-trace.bilibili.com^
 @@||m.bilibili.com^
+@@||member.bilibili.com^
+@@||message.bilibili.com^
 @@||passport.bilibili.com^
 @@||pay.bilibili.com^
 @@||space.bilibili.com^
@@ -476,6 +484,7 @@
 @@||bing.net^
 @@||bit.ly^
 @@||download.bitcomet.com^
+@@||members.bitcomet.com^
 @@||www.bitcomet.com^
 @@||bitly.com^
 @@||bitsumactivationserver.com^
@@ -630,6 +639,7 @@
 @@||verify.cmpassport.com^
 @@||wap.cmpassport.com^
 @@||www.cmpassport.com^
+@@||mca.cmpay.com^
 @@||img.cmvideo.cn^
 @@||assets.cnblogs.com^
 @@||cnnic.net.cn^
@@ -683,6 +693,7 @@
 @@||contentcenter-vali-drcn.dbankcdn.com^
 @@||smarthome-drcn.dbankcdn.com^
 @@||smartrobot-drcn.dbankcdn.com^
+@@||metrics1-drcn.dt.dbankcloud.cn^
 @@||p3.dcarimg.com^
 @@||p5-auto.dcarimg.com^
 @@||p5-auto-sign.dcarimg.com^
@@ -797,6 +808,7 @@
 @@||ehtracker.org^
 @@||cashier.ele.me^
 @@||ipassport.ele.me^
+@@||mcs.ele.me^
 @@||sp.ele.me^
 @@||sso.ele.me^
 @@||waimai.ele.me^
@@ -947,6 +959,7 @@
 @@||images.qqshow.gtimg.com^
 @@||ime-store-cdn.gtimg.com^
 @@||inews.gtimg.com^
+@@||mat1.gtimg.com^
 @@||qidian.gtimg.com^
 @@||turing.captcha.gtimg.com^
 @@||m.gushiwen.cn^
@@ -1037,6 +1050,7 @@
 @@||auth.huaweicloud.com^
 @@||console.huaweicloud.com^
 @@||console-intl.huaweicloud.com^
+@@||marketplace.huaweicloud.com^
 @@||mirrors.huaweicloud.com^
 @@||searchrec.marketplace-intl.huaweicloud.com^
 @@||support.huaweicloud.com^
@@ -1062,6 +1076,7 @@
 @@||contacts.icloud.com^
 @@||fmip.icloud.com^
 @@||mail.icloud.com^
+@@||metrics.icloud.com^
 @@||notes.icloud.com^
 @@||p01-ckdatabase.icloud.com^
 @@||p01-ckdatabasews.icloud.com^
@@ -1294,6 +1309,7 @@
 @@||manwa.me^
 @@||manwac.xyz^
 @@||www.maserati.com^
+@@||mb-mods.net^
 @@||bbs.mcmod.cn^
 @@||bug.mcmod.cn^
 @@||i.mcmod.cn^
@@ -1303,8 +1319,11 @@
 @@||search.mcmod.cn^
 @@||static.mcmod.cn^
 @@||www.mcmod.cn^
+@@||mdgram.app^
 @@||imgx.mediav.com^
 @@||www.mefrp.com^
+@@||mega.nz^
+@@||meiqia.com^
 @@||api.meituan.com^
 @@||api-unionid.meituan.com^
 @@||apimobile.meituan.com^
@@ -1335,6 +1354,7 @@
 @@||care.meizu.com^
 @@||detail.meizu.com^
 @@||game.res.meizu.com^
+@@||m.meizu.com^
 @@||store.meizu.com^
 @@||uxip.meizu.com^
 @@||www.meizu.com^
@@ -1408,6 +1428,8 @@
 @@||jupiter.intl.sys.miui.com^
 @@||jupiter.rus.sys.miui.com^
 @@||jupiter.sys.miui.com^
+@@||mcc.inf.miui.com^
+@@||metok.sys.miui.com^
 @@||nav.browser.miui.com^
 @@||port.sec.miui.com^
 @@||reader.browser.miui.com^
@@ -1775,6 +1797,8 @@
 @@||lpl.qq.com^
 @@||mail.qq.com^
 @@||map.qq.com^
+@@||masterconn2.qq.com^
+@@||mdevstat.qqlive.qq.com^
 @@||mini2015.qq.com^
 @@||msfwifi.3g.qq.com^
 @@||mv6.music.tc.qq.com^
@@ -1935,6 +1959,7 @@
 @@||is.snssdk.com^
 @@||is-hl.snssdk.com^
 @@||log.snssdk.com^
+@@||mcs.snssdk.com^
 @@||mon.snssdk.com^
 @@||open.snssdk.com^
 @@||reading.snssdk.com^
@@ -2050,6 +2075,7 @@
 @@||main.m.taobao.com^
 @@||market.taobao.com^
 @@||market.m.taobao.com^
+@@||markets.taobao.com^
 @@||mos.m.taobao.com^
 @@||msgacs.m.taobao.com^
 @@||retail.taobao.com^
@@ -2261,6 +2287,7 @@
 @@||s3.voicecloud.cn^
 @@||portal.volccdn.com^
 @@||gator.volces.com^
+@@||metrics.vrch.at^
 @@||vxxx.com^
 @@||vdn3.vzuu.com^
 @@||vdn5.vzuu.com^
@@ -2438,6 +2465,7 @@
 @@||venus.yhd.com^
 @@||vip-pro.m.yhd.com^
 @@||doris.yidianzixun.com^
+@@||mb.yidianzixun.com^
 @@||mp.yidianzixun.com^
 @@||msn.yidianzixun.com^
 @@||oppo.yidianzixun.com^
@@ -2531,6 +2559,7 @@
 @@||abtest3-misc-lf.zijieapi.com^
 @@||auth.zijieapi.com^
 @@||gecko.zijieapi.com^
+@@||mcs.zijieapi.com^
 @@||minigame.zijieapi.com^
 @@||minigame5-normal-hl.zijieapi.com^
 @@||mon.zijieapi.com^

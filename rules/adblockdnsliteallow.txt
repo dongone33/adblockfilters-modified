@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的放行（白名单/误杀修复）规则，每 12 小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、jiekouAD、AWAvenue Ads Rule、anti-AD、HalfLife、DD-AD、晴雅广告拦截规则、SMAdHosts、那个谁520规则、TTDNS、茯苓广告规则、HG、DNS-Kuner拦截列表、SmartTV、10007_auto混合规则、DNS-Blocklists PRO mini、茯苓允许列表、DD-AD允许列表、那个谁520广告白名单、DNS-Kuner放行列表。 Lite 版仅针对国内域名放行。
 ! Homepage: https://github.com/dongone33/adblockfilters-modified
 ! Source: https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnsliteallow.txt
-! Version: 20261013154204
-! Last modified: 2026/10/13 15:42:04
-! Unblocked domains: 1950
+! Version: 20261014140606
+! Last modified: 2026/10/14 14:06:06
+! Unblocked domains: 1951
 ! Regex rules: 0
 !
 @@||res.mall.10010.cn^
@@ -342,6 +342,7 @@
 @@||xp.apple.com^
 @@||www.apple.com.cn^
 @@||lifemakeovermysg.archosaur.com^
+@@||mystyle.archosaur.com^
 @@||news-l.play.aiseet.atianqi.com^
 @@||p-l.play.aiseet.atianqi.com^
 @@||store.is.autonavi.com^
@@ -731,6 +732,8 @@
 @@||google-analytics.com^
 @@||images.google.cn^
 @@||www.google.cn^
+@@||googleadservices.com^
+@@||googletagmanager.com^
 @@||game.gtimg.cn^
 @@||groupprohead.gtimg.cn^
 @@||i.gtimg.cn^
@@ -963,8 +966,6 @@
 @@||develope-oss.lanzoug.com^
 @@||i72.lanzoug.com^
 @@||i82.lanzoug.com^
-@@||ww1.lanzous.com^
-@@||ww12.lanzous.com^
 @@||yoyodadada.lanzouw.com^
 @@||pzdown.laomaotao.com^
 @@||laomaotao.net^
@@ -1315,6 +1316,7 @@
 @@||downv6.qq.com^
 @@||finderpdd.video.qq.com^
 @@||game.html5.qq.com^
+@@||graph.qq.com^
 @@||guanjia.qq.com^
 @@||h.trace.qq.com^
 @@||h5vv6.video.qq.com^
@@ -1401,7 +1403,6 @@
 @@||store.cdn.queniuqe.com^
 @@||api.ts.feedback.qy.net^
 @@||account.qzhua.net^
-@@||api.realme.com^
 @@||cloud.realme.com^
 @@||id.realme.com^
 @@||www.recaptcha.net^

@@ -1,11 +1,12 @@
 [Adblock Plus 2.0]
 ! Title: 轻量广告拦截规则
 ! Homepage: https://github.com/damengzhu/banad
-! Update Time: 2026-10-01 21:34:42（北京时间）
-! Version: 20261001213442
-! Total Count: 5895
+! Update Time: 2026-10-23 18:46:32（北京时间）
+! Version: 20261023184632
+! Total Count: 5898
 ! by: 酷安@大萌主
 ! domain name
+||nextacdn.top^
 ||amusingarmorycomment.com^
 ||arbattadr.in^
 ||greentrafsa.com^
@@ -4878,6 +4879,7 @@ js/yys/Pfhl365.js
 ||tz659.com/js/html*.js
 ||tz659.com/js/cdn.js
 Mplay/kk1.js
+.com:8005/cc/*?*=$third-party
 ||ffdm*.cc/dd.js
 /resolve?type=*&short=*&name=$third-party
 .com/hm/*?*=*$third-party
@@ -5083,6 +5085,7 @@ baidu.com##.se-recommend-word-list,#se-recommend-word-list-container
 baidu.com##a.ball-wrapper__3BTBO.c-blocka
 baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 baidu.com##.barea-ad
+baidu.com###page-copyright.se-page-copyright
 baidu.com##.ec_resitem *
 baidu.com##[data-log-view*='swan-ad-fc-ad-item']
 baidu.com###bdrainrwDragButton

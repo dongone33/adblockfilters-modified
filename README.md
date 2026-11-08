@@ -3,14 +3,14 @@
 
 | 指标 | 数值 |
 | :- | :- |
-| 上次更新（北京时间） | 2026/11/07 22:39:56 (UTC+08:00) |
-| 上游规则总数（去重前） | 773553 |
-| 上游规则总数（去重后） | 502971 |
-| 上游规则去重率 | 34.98% |
-| 有效规则数量（可解析） | 369324 |
-| 有效规则占比（检测域名） | 86.06% |
-| 中国规则数（Lite） | 10608 |
-| 中国规则占比（Lite/成品） | 9.45% |
+| 上次更新（北京时间） | 2026/11/08 19:31:14 (UTC+08:00) |
+| 上游规则总数（去重前） | 697570 |
+| 上游规则总数（去重后） | 436526 |
+| 上游规则去重率 | 37.42% |
+| 有效规则数量（可解析） | 309859 |
+| 有效规则占比（检测域名） | 84.86% |
+| 中国规则数（Lite） | 10743 |
+| 中国规则占比（Lite/成品） | 9.59% |
 
 ## 说明
 1. 定时从上游各规则源获取更新，合并去重。
@@ -30,12 +30,12 @@
 <details>
 <summary>点击展开/收起新增与独有规则源列表</summary>
 
-- 10007_auto混合规则
 - DD-AD
 - DD-AD允许列表
 - DNS-Kuner拦截列表
 - DNS-Kuner放行列表
 - HG
+- HG放行列表
 - HalfLife
 - SMAdHosts
 - SmartTV
@@ -56,77 +56,77 @@
 
 | 规则 | 原始链接 | 加速链接 | 文件体积(MB) | 规则数量 | 适配说明 |
 | :- | :- | :- | :- | :- | :- | 
-| 规则1 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdns.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdns.txt) | 5.72 | 246482 | AdGuard、AdGuard Home 等 |
-| 规则1' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnslite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdnslite.txt) | 0.26 | 12369 | AdGuard、AdGuard Home 等 |
-| 规则2 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockfilters.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockfilters.txt) | 7.10 | 112308 | AdGuard 等 |
-| 规则2' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockfilterslite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockfilterslite.txt) | 0.45 | 10608 | AdGuard 等 |
-| 规则3 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdomain.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdomain.txt) | 5.02 | 246392 | InviZible Pro、personalDNSfilter |
-| 规则3' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdomainlite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdomainlite.txt) | 0.23 | 12369 | InviZible Pro、personalDNSfilter |
-| 规则4 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnsmasq.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdnsmasq.txt) | 6.90 | 246392 | DNSMasq conf |
-| 规则4' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnsmasqlite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdnsmasqlite.txt) | 0.32 | 12369 | DNSMasq conf |
-| 规则5 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksmartdns.conf) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksmartdns.conf) | 7.67 | 249005 | SmartDNS |
-| 规则5' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksmartdnslite.conf) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksmartdnslite.conf) | 0.41 | 14345 | SmartDNS |
-| 规则6 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockclash.list) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockclash.list) | 11.12 | 246393 | Shadowrocket |
-| 规则6' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockclashlite.list) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockclashlite.list) | 0.53 | 12370 | Shadowrocket |
-| 规则7 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockqx.conf) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockqx.conf) | 9.48 | 246392 | QuantumultX |
-| 规则7' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockqxlite.conf) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockqxlite.conf) | 0.45 | 12369 | QuantumultX |
-| 规则8 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockmihomo.yaml) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockmihomo.yaml) | 6.90 | 246392 | Clash Meta(Mihomo) yaml |
-| 规则8' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockmihomolite.yaml) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockmihomolite.yaml) | 0.32 | 12369 | Clash Meta(Mihomo) yaml |
-| 规则9 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockmihomo.mrs) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockmihomo.mrs) | 2.06 | 246392 | Clash Meta(Mihomo) mrs |
-| 规则9' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockmihomolite.mrs) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockmihomolite.mrs) | 0.10 | 12369 | Clash Meta(Mihomo) mrs |
-| 规则10 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockhosts.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockhosts.txt) | 6.90 | 246406 | Hosts |
-| 规则10' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockhostslite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockhostslite.txt) | 0.32 | 12383 | Hosts |
-| 规则11 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksingbox.json) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksingbox.json) | 7.60 | 246392 | sing-box 1.12.x json |
-| 规则11' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksingboxlite.json) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksingboxlite.json) | 0.36 | 12369 | sing-box 1.12.x json |
-| 规则12 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksingbox.srs) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksingbox.srs) | 1.86 | 246392 | sing-box 1.12.x srs |
-| 规则12' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksingboxlite.srs) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksingboxlite.srs) | 0.08 | 12369 | sing-box 1.12.x srs |
-| 规则13 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockloon.list) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockloon.list) | 8.31 | 246392 | Loon |
-| 规则13' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockloonlite.list) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockloonlite.list) | 0.39 | 12369 | Loon |
-| 规则14 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksurge.list) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksurge.list) | 5.25 | 246392 | Surge |
-| 规则14' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksurgelite.list) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksurgelite.list) | 0.24 | 12369 | Surge |
-| 规则15 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockmosdns.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockmosdns.txt) | 6.19 | 246392 | MosDNS v5 |
-| 规则15' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockmosdnslite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockmosdnslite.txt) | 0.29 | 12369 | MosDNS v5 |
-| 规则16 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksurgeruleset.list) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksurgeruleset.list) | 6.66 | 246392 | Surge RULE-SET |
-| 规则16' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksurgerulesetlite.list) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksurgerulesetlite.list) | 0.31 | 12369 | Surge RULE-SET |
-| 规则17 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockclashclassical.yaml) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockclashclassical.yaml) | 7.60 | 246392 | Clash Classical yaml |
-| 规则17' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockclashclassicallite.yaml) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockclashclassicallite.yaml) | 0.36 | 12369 | Clash Classical yaml |
-| 规则18 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockrouteros.txt) | [加速链接](https://github.boki.moe/https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockrouteros.txt) | 27.65 | 492784 | RouterOS |
-| 规则18' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockrouteroslite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockrouteroslite.txt) | 1.34 | 24738 | RouterOS |
-| 规则19 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockrouterosadlist.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockrouterosadlist.txt) | 12.61 | 492786 | RouterOS AdList |
-| 规则19' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockrouterosadlistlite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockrouterosadlistlite.txt) | 0.58 | 24740 | RouterOS AdList |
-| 规则20 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnsmasqaddnhosts.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdnsmasqaddnhosts.txt) | 6.90 | 246392 | DNSMasq addn-hosts |
-| 规则20' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnsmasqaddnhostslite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdnsmasqaddnhostslite.txt) | 0.32 | 12369 | DNSMasq addn-hosts |
-| 规则21 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnsmasqservers.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdnsmasqservers.txt) | 7.13 | 246392 | DNSMasq servers |
-| 规则21' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnsmasqserverslite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdnsmasqserverslite.txt) | 0.33 | 12369 | DNSMasq servers |
+| 规则1 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdns.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdns.txt) | 5.60 | 242344 | AdGuard、AdGuard Home 等 |
+| 规则1' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnslite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdnslite.txt) | 0.25 | 11866 | AdGuard、AdGuard Home 等 |
+| 规则2 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockfilters.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockfilters.txt) | 7.09 | 112079 | AdGuard 等 |
+| 规则2' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockfilterslite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockfilterslite.txt) | 0.46 | 10743 | AdGuard 等 |
+| 规则3 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdomain.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdomain.txt) | 4.90 | 242254 | InviZible Pro、personalDNSfilter |
+| 规则3' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdomainlite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdomainlite.txt) | 0.22 | 11866 | InviZible Pro、personalDNSfilter |
+| 规则4 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnsmasq.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdnsmasq.txt) | 6.75 | 242254 | DNSMasq conf |
+| 规则4' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnsmasqlite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdnsmasqlite.txt) | 0.31 | 11866 | DNSMasq conf |
+| 规则5 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksmartdns.conf) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksmartdns.conf) | 7.52 | 245030 | SmartDNS |
+| 规则5' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksmartdnslite.conf) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksmartdnslite.conf) | 0.40 | 13971 | SmartDNS |
+| 规则6 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockclash.list) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockclash.list) | 10.91 | 242255 | Shadowrocket |
+| 规则6' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockclashlite.list) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockclashlite.list) | 0.51 | 11867 | Shadowrocket |
+| 规则7 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockqx.conf) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockqx.conf) | 9.29 | 242254 | QuantumultX |
+| 规则7' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockqxlite.conf) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockqxlite.conf) | 0.43 | 11866 | QuantumultX |
+| 规则8 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockmihomo.yaml) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockmihomo.yaml) | 6.75 | 242254 | Clash Meta(Mihomo) yaml |
+| 规则8' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockmihomolite.yaml) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockmihomolite.yaml) | 0.31 | 11866 | Clash Meta(Mihomo) yaml |
+| 规则9 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockmihomo.mrs) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockmihomo.mrs) | 2.27 | 242254 | Clash Meta(Mihomo) mrs |
+| 规则9' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockmihomolite.mrs) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockmihomolite.mrs) | 0.11 | 11866 | Clash Meta(Mihomo) mrs |
+| 规则10 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockhosts.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockhosts.txt) | 6.75 | 242268 | Hosts |
+| 规则10' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockhostslite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockhostslite.txt) | 0.31 | 11880 | Hosts |
+| 规则11 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksingbox.json) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksingbox.json) | 7.44 | 242254 | sing-box 1.12.x json |
+| 规则11' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksingboxlite.json) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksingboxlite.json) | 0.34 | 11866 | sing-box 1.12.x json |
+| 规则12 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksingbox.srs) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksingbox.srs) | 2.06 | 242254 | sing-box 1.12.x srs |
+| 规则12' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksingboxlite.srs) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksingboxlite.srs) | 0.09 | 11866 | sing-box 1.12.x srs |
+| 规则13 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockloon.list) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockloon.list) | 8.14 | 242254 | Loon |
+| 规则13' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockloonlite.list) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockloonlite.list) | 0.38 | 11866 | Loon |
+| 规则14 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksurge.list) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksurge.list) | 5.13 | 242254 | Surge |
+| 规则14' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksurgelite.list) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksurgelite.list) | 0.23 | 11866 | Surge |
+| 规则15 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockmosdns.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockmosdns.txt) | 6.06 | 242254 | MosDNS v5 |
+| 规则15' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockmosdnslite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockmosdnslite.txt) | 0.27 | 11866 | MosDNS v5 |
+| 规则16 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksurgeruleset.list) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksurgeruleset.list) | 6.52 | 242254 | Surge RULE-SET |
+| 规则16' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblocksurgerulesetlite.list) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblocksurgerulesetlite.list) | 0.30 | 11866 | Surge RULE-SET |
+| 规则17 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockclashclassical.yaml) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockclashclassical.yaml) | 7.44 | 242254 | Clash Classical yaml |
+| 规则17' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockclashclassicallite.yaml) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockclashclassicallite.yaml) | 0.34 | 11866 | Clash Classical yaml |
+| 规则18 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockrouteros.txt) | [加速链接](https://github.boki.moe/https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockrouteros.txt) | 27.13 | 484508 | RouterOS |
+| 规则18' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockrouteroslite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockrouteroslite.txt) | 1.28 | 23732 | RouterOS |
+| 规则19 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockrouterosadlist.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockrouterosadlist.txt) | 12.34 | 484510 | RouterOS AdList |
+| 规则19' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockrouterosadlistlite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockrouterosadlistlite.txt) | 0.56 | 23734 | RouterOS AdList |
+| 规则20 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnsmasqaddnhosts.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdnsmasqaddnhosts.txt) | 6.75 | 242254 | DNSMasq addn-hosts |
+| 规则20' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnsmasqaddnhostslite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdnsmasqaddnhostslite.txt) | 0.31 | 11866 | DNSMasq addn-hosts |
+| 规则21 | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnsmasqservers.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdnsmasqservers.txt) | 6.98 | 242254 | DNSMasq servers |
+| 规则21' | [原始链接](https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnsmasqserverslite.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/rules/adblockdnsmasqserverslite.txt) | 0.32 | 11866 | DNSMasq servers |
 
 ## 上游规则源
 1. 感谢各位广告过滤规则维护大佬们的辛苦付出。
 
 | 规则 | 类型 | 原始链接 | 加速链接 | 规则数量 | 更新日期 |
 | :- | :- | :- | :- | :- | :- | 
-| AdGuard Base filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/AdGuard_Base_filter.txt) | 163876 | 2026/11/07 |
-| AdGuard Chinese filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/AdGuard_Chinese_filter.txt) | 21984 | 2026/11/07 |
+| AdGuard Base filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/AdGuard_Base_filter.txt) | 164182 | 2026/11/08 |
+| AdGuard Chinese filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/AdGuard_Chinese_filter.txt) | 21995 | 2026/11/08 |
 | AdGuard Mobile Ads filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/AdGuard_Mobile_Ads_filter.txt) | 1071 | 2026/11/07 |
-| AdGuard DNS filter | dns | [原始链接](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/AdGuard_DNS_filter.txt) | 192107 | 2026/11/07 |
+| AdGuard DNS filter | dns | [原始链接](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/AdGuard_DNS_filter.txt) | 192399 | 2026/11/08 |
 | jiekouAD | filter | [原始链接](https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/jiekouAD.txt) | 5914 | 2026/11/01 |
 | AWAvenue Ads Rule | dns | [原始链接](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/AWAvenue_Ads_Rule.txt) | 984 | 2026/10/24 |
-| anti-AD | filter | [原始链接](https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/anti-AD.txt) | 96298 | 2026/11/07 |
+| anti-AD | filter | [原始链接](https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/anti-AD.txt) | 96926 | 2026/11/08 |
 | HalfLife | filter | [原始链接](https://cdn.jsdelivr.net/gh/sbwml/halflife-list@master/ad.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/HalfLife.txt) | 20827 | 2026/11/03 |
 | DD-AD | filter | [原始链接](https://raw.githubusercontent.com/afwfv/DD-AD/refs/heads/release/easylist.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/DD-AD.txt) | 79814 | 2026/11/03 |
 | 晴雅广告拦截规则 | filter | [原始链接](https://raw.githubusercontent.com/rssvcn/qy-Ads-Rule/main/black.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/晴雅广告拦截规则.txt) | 574 | 2026/09/19 |
 | SMAdHosts | host | [原始链接](https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/master/SMAdHosts) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/SMAdHosts.txt) | 5372 | 2026/10/13 |
-| 那个谁520规则 | filter | [原始链接](https://raw.githubusercontent.com/qq5460168/666/refs/heads/master/rules.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/那个谁520规则.txt) | 32492 | 2026/11/07 |
+| 那个谁520规则 | filter | [原始链接](https://raw.githubusercontent.com/qq5460168/666/refs/heads/master/rules.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/那个谁520规则.txt) | 32492 | 2026/11/08 |
 | TTDNS | dns | [原始链接](https://raw.githubusercontent.com/TTDNS/Cat/refs/heads/main/DNS.TXT) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/TTDNS.txt) | 257 | 2026/09/19 |
 | 茯苓广告规则 | filter | [原始链接](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/茯苓广告规则.txt) | 653 | 2026/09/19 |
-| HG | filter | [原始链接](https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/HG.txt) | 13181 | 2026/11/07 |
+| HG | filter | [原始链接](https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/HG.txt) | 13174 | 2026/11/08 |
 | DNS-Kuner拦截列表 | dns | [原始链接](https://raw.githubusercontent.com/Kuner-mw/DNS-Kuner/main/FilterRules/blacklist.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/DNS-Kuner拦截列表.txt) | 151 | 2026/09/19 |
 | SmartTV | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/refs/heads/main/filters/other/filter_7_SmartTVBlocklist/filter.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/SmartTV.txt) | 169 | 2026/09/19 |
-| DNS-Blocklists PRO mini | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.mini.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/DNS-Blocklists_PRO_mini.txt) | 164042 | 2026/11/07 |
+| DNS-Blocklists PRO mini | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.mini.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/DNS-Blocklists_PRO_mini.txt) | 99492 | 2026/11/08 |
 | 茯苓允许列表 | filter | [原始链接](https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingAllowList.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/茯苓允许列表.txt) | 1313 | 2026/09/19 |
 | DD-AD允许列表 | filter | [原始链接](https://raw.githubusercontent.com/afwfv/DD-AD/refs/heads/release/DD-AD.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/DD-AD允许列表.txt) | 1636 | 2026/09/19 |
-| 那个谁520广告白名单 | filter | [原始链接](https://raw.githubusercontent.com/qq5460168/666/master/allow.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/那个谁520广告白名单.txt) | 4165 | 2026/11/07 |
+| 那个谁520广告白名单 | filter | [原始链接](https://raw.githubusercontent.com/qq5460168/666/master/allow.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/那个谁520广告白名单.txt) | 4165 | 2026/11/08 |
 | DNS-Kuner放行列表 | dns | [原始链接](https://raw.githubusercontent.com/Kuner-mw/DNS-Kuner/main/FilterRules/allowlist.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/DNS-Kuner放行列表.txt) | 65 | 2026/09/19 |
-| HG放行列表 | dns | [原始链接](https://raw.githubusercontent.com/2771936993/HG/refs/heads/main/hg2.txt) | [加速链接](-) | - | - |
+| HG放行列表 | dns | [原始链接](https://raw.githubusercontent.com/2771936993/HG/refs/heads/main/hg2.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/dongone33/adblockfilters-modified@main/sources/upstream/HG放行列表.txt) | 368 | 2026/11/08 |
 
 ## Star History
 <a href="https://www.star-history.com/#dongone33/adblockfilters-modified&Date">

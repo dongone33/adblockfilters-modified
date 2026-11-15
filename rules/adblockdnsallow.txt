@@ -3,8 +3,8 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的放行（白名单/误杀修复）规则，每 12 小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、jiekouAD、AWAvenue Ads Rule、anti-AD、HalfLife、DD-AD、晴雅广告拦截规则、SMAdHosts、那个谁520规则、TTDNS、茯苓广告规则、HG、DNS-Kuner拦截列表、SmartTV、DNS-Blocklists PRO mini、茯苓允许列表、DD-AD允许列表、那个谁520广告白名单、DNS-Kuner放行列表、HG放行列表。
 ! Homepage: https://github.com/dongone33/adblockfilters-modified
 ! Source: https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockdnsallow.txt
-! Version: 20261114153337
-! Last modified: 2026/11/14 15:33:37
+! Version: 20261115154140
+! Last modified: 2026/11/15 15:41:40
 ! Unblocked domains: 2784
 ! Regex rules: 3
 !
@@ -1457,7 +1457,6 @@
 @@||care.meizu.com^
 @@||detail.meizu.com^
 @@||game.res.meizu.com^
-@@||m.meizu.com^
 @@||store.meizu.com^
 @@||uxip.meizu.com^
 @@||www.meizu.com^
@@ -1639,6 +1638,7 @@
 @@||a1.mzstatic.com^
 @@||a2.mzstatic.com^
 @@||a3.mzstatic.com^
+@@||a4.mzstatic.com^
 @@||a5.mzstatic.com^
 @@||a6.mzstatic.com^
 @@||a7.mzstatic.com^

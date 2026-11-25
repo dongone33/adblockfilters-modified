@@ -1,11 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: 轻量广告拦截规则
 ! Homepage: https://github.com/damengzhu/banad
-! Update Time: 2026-11-12 12:06:58（北京时间）
-! Version: 20261112120658
-! Total Count: 5906
+! Update Time: 2026-11-22 12:08:04（北京时间）
+! Version: 20261122120804
+! Total Count: 5929
 ! by: 酷安@大萌主
 ! domain name
+||usnorbert.com^
+||cloudflareinsights.com^
+||reke.at.sohu.com^
 ||f7qh.top^
 ||xn--jc2a749bpa.com^
 ||sdk.51.la^
@@ -107,7 +110,6 @@
 ||kuiv.cn^
 ||fgfhgvtj.com^
 ||kklq05121p0i.com^
-||polyfill-js.cn^
 ||saptorge.com^
 ||mmcegkfrue.xyz^
 ||appmobile.cn^
@@ -134,7 +136,6 @@
 ||epxlt.xyz^
 ||jsdelivr.vip^
 ||chenhao97.top^
-||aizhantj.com^
 ||usrzh.cn^
 ||bjfsk.xyz^
 ||pinglun11223.xyz^
@@ -4660,6 +4661,7 @@ unpkg.com/aladug/*.js
 /assets/publish/d3.2.js$~third-party
 ||ciliyinqing.top^$third-party
 ||feijisu*.com/js/huimi-
+://gg.*/*.js$third-party
 /api/LM/Report?placeUUID=$third-party
 .icu/pssbk?$third-party
 /vhyoydie_*_*.js$third-party
@@ -4884,6 +4886,7 @@ js/yys/Pfhl365.js
 Mplay/kk1.js
 .com:8005/cc/*?*=$third-party
 ||ffdm*.cc/dd.js
+||wodeshucheng5.com/*/1
 /resolve?type=*&short=*&name=$third-party
 .com/hm/*?*=*$third-party
 bytegoofy.com/goofy/*/push.js?
@@ -4948,7 +4951,8 @@ _/bigREDdog.js
 /config/tj.js
 ||*.org/config/v7.js
 ||jjjxsw.com/js/common.*
-||/js/0x1a2b3c4d.js
+/js/0x1a2b3c4d.js
+.com:30009/*t*$third-party
 /js/j*s*r*u*n*n*e*r.js$~third-party
 /js/kaixin.js
 ||familydoctor.com.cn/c/a/000/ggw_
@@ -5893,6 +5897,23 @@ javbus.com##.container-fluid:nth-child(9) > .row > .ad-list:nth-child(3)
 ##a[href*="?channelCode="] > img[src]
 ##img[alt="33直播"]
 ##A[href*='.life/8888'][style='display: inline-block;']
+##.adspop
+##.horizontal-banner
+##.page-nav ~ .addbox[style]
+##a[title="PG电子"]
+##a[title="开元棋牌"]
+##img[alt$="约炮"]
+##[class*="card-ads"]
+##[onclick*="'Ad Click'"]
+##[onclick*="ad_slot"]
+##a[href]:not([target="_blank"]) + a[href][rel*="sponsored"][target="_blank"]
+##a[href][target="_blank"][rel*="sponsored"] > img[alt*="棋牌"]
+##a[href][target="_blank"][rel*="sponsored"] > img[alt^="PG"]
+##a[onclick*="棋牌"]
+##a[onclick*="澳门"]
+##a[onclick*="约炮"]
+##a[rel*="sponsored"][onclick]
+##img[alt^="PG"][alt*="电子"]
 ##.dx-recommend-icons
 ##img[alt="开元电子"]
 ##img[alt*="PG"][alt*="娱乐"]
@@ -5902,6 +5923,8 @@ javbus.com##.container-fluid:nth-child(9) > .row > .ad-list:nth-child(3)
 ##div.page.list div.small-icon-container
 ##DIV.swiper-container.swiper-container-horizontal.swiper-container-ios.swiper-container-wp8-horizontal.swiper-container-initialized.swiper-container-android
 ##div.pannel > div.grid
+##div.module.module-player > .is_mb
+##div.small-icon-container > .small-icon-div
 ##div.footer-area.mobile DIV#banner_container
 ##div.page-d.page-turn > [style='position: relative; margin: auto; clear: both; width: 300px;']
 ##body.__amp.amp-mode-touch IFRAME[frameborder='0'][framespacing='0']

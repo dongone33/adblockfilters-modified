@@ -3,9 +3,9 @@
 # Description: 适用于 RouterOS AdList 的去广告合并规则，每 12 小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、jiekouAD、AWAvenue Ads Rule、anti-AD、HalfLife、DD-AD、晴雅广告拦截规则、SMAdHosts、那个谁520规则、TTDNS、茯苓广告规则、HG、DNS-Kuner拦截列表、SmartTV、DNS-Blocklists PRO mini、茯苓允许列表、DD-AD允许列表、那个谁520广告白名单、DNS-Kuner放行列表、HG放行列表。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/dongone33/adblockfilters-modified
 # Source: https://raw.githubusercontent.com/dongone33/adblockfilters-modified/main/rules/adblockrouterosadlistlite.txt
-# Version: 20261127173708
-# Last modified: 2026/11/27 17:37:08
-# Blocked domains: 11900
+# Version: 20261128165118
+# Last modified: 2026/11/28 16:51:18
+# Blocked domains: 11878
 #
 0.0.0.0 localhost
 ::1 localhost
@@ -236,6 +236,8 @@
 :: 113.207.105.184
 0.0.0.0 1133.cc
 :: 1133.cc
+0.0.0.0 1135555.com
+:: 1135555.com
 0.0.0.0 114.110.96.26
 :: 114.110.96.26
 0.0.0.0 114.110.96.6
@@ -846,8 +848,6 @@
 :: 301848.com
 0.0.0.0 301pk.com
 :: 301pk.com
-0.0.0.0 download.30824z.cn
-:: download.30824z.cn
 0.0.0.0 d1.3158.cn
 :: d1.3158.cn
 0.0.0.0 dm1.3199.cn
@@ -1280,6 +1280,8 @@
 :: ios-pclog.3u.com
 0.0.0.0 a-xbsm1.3xbx.com
 :: a-xbsm1.3xbx.com
+0.0.0.0 i1tq4bgq3xg.3yjt.com
+:: i1tq4bgq3xg.3yjt.com
 0.0.0.0 40017.cn
 :: 40017.cn
 0.0.0.0 4009997658.com
@@ -1322,12 +1324,6 @@
 :: 47.117.129.88
 0.0.0.0 47.97.233.30
 :: 47.97.233.30
-0.0.0.0 12031628.489543.com
-:: 12031628.489543.com
-0.0.0.0 12035589.489543.com
-:: 12035589.489543.com
-0.0.0.0 12035369.489809.com
-:: 12035369.489809.com
 0.0.0.0 4a9.cn
 :: 4a9.cn
 0.0.0.0 a.4aqq.com
@@ -1766,8 +1762,6 @@
 :: 6jtqdplfz7.com
 0.0.0.0 6knlhnjfv.com
 :: 6knlhnjfv.com
-0.0.0.0 6kuu.me
-:: 6kuu.me
 0.0.0.0 usmini.6kw.com
 :: usmini.6kw.com
 0.0.0.0 6kwan.com
@@ -1816,6 +1810,8 @@
 :: ss.7477.com
 0.0.0.0 tg.7477.com
 :: tg.7477.com
+0.0.0.0 a55euid.752faka.cn
+:: a55euid.752faka.cn
 0.0.0.0 7577.cc
 :: 7577.cc
 0.0.0.0 75ww.com
@@ -1888,6 +1884,8 @@
 :: 8.142.145.157
 0.0.0.0 8.142.242.64
 :: 8.142.242.64
+0.0.0.0 a.80982.org
+:: a.80982.org
 0.0.0.0 80vn.cn
 :: 80vn.cn
 0.0.0.0 m1.81312.com
@@ -1926,46 +1924,12 @@
 :: dodi.86zhnc.cn
 0.0.0.0 b17.8794.cn
 :: b17.8794.cn
-0.0.0.0 0gxw.880.net
-:: 0gxw.880.net
 0.0.0.0 0qhr.880.net
 :: 0qhr.880.net
-0.0.0.0 1bl4.880.net
-:: 1bl4.880.net
-0.0.0.0 nnw5.880.net
-:: nnw5.880.net
-0.0.0.0 nnz9.880.net
-:: nnz9.880.net
-0.0.0.0 yimc.880.net
-:: yimc.880.net
-0.0.0.0 yk6a.880.net
-:: yk6a.880.net
-0.0.0.0 yszu.880.net
-:: yszu.880.net
-0.0.0.0 z91g.880.net
-:: z91g.880.net
-0.0.0.0 zasa.880.net
-:: zasa.880.net
 0.0.0.0 88362zubo95838.com
 :: 88362zubo95838.com
 0.0.0.0 api1.888zy.cn
 :: api1.888zy.cn
-0.0.0.0 1ei9.8890.com
-:: 1ei9.8890.com
-0.0.0.0 1jt9.8890.com
-:: 1jt9.8890.com
-0.0.0.0 1wdf.8890.com
-:: 1wdf.8890.com
-0.0.0.0 o17z.8890.com
-:: o17z.8890.com
-0.0.0.0 oi9a.8890.com
-:: oi9a.8890.com
-0.0.0.0 omhj.8890.com
-:: omhj.8890.com
-0.0.0.0 yl8i.8890.com
-:: yl8i.8890.com
-0.0.0.0 yn1l.8890.com
-:: yn1l.8890.com
 0.0.0.0 88la.la
 :: 88la.la
 0.0.0.0 88shu.cn
@@ -2210,8 +2174,8 @@
 :: a32a.com.cn
 0.0.0.0 api.a3733.com
 :: api.a3733.com
-0.0.0.0 a3p4.net
-:: a3p4.net
+0.0.0.0 a4xvv2g18l.com
+:: a4xvv2g18l.com
 0.0.0.0 a5wlr2yplf.com
 :: a5wlr2yplf.com
 0.0.0.0 sdk.a79h.cn
@@ -2486,18 +2450,14 @@
 :: cross-ad-api.afunapp.com
 0.0.0.0 think.afunapp.com
 :: think.afunapp.com
+0.0.0.0 0cpb.ag8.com
+:: 0cpb.ag8.com
 0.0.0.0 0dlx.ag8.com
 :: 0dlx.ag8.com
 0.0.0.0 0mhz.ag8.com
 :: 0mhz.ag8.com
-0.0.0.0 oq18.ag8.com
-:: oq18.ag8.com
-0.0.0.0 yjkr.ag8.com
-:: yjkr.ag8.com
-0.0.0.0 yzso.ag8.com
-:: yzso.ag8.com
-0.0.0.0 z2z7.ag8.com
-:: z2z7.ag8.com
+0.0.0.0 0pdl.ag8.com
+:: 0pdl.ag8.com
 0.0.0.0 ad.aggrx.com
 :: ad.aggrx.com
 0.0.0.0 hf743ds.agkath.cn
@@ -3348,8 +3308,6 @@
 :: aq0vs4ftni.com
 0.0.0.0 track-ger.aqara.com
 :: track-ger.aqara.com
-0.0.0.0 aqdlt.com
-:: aqdlt.com
 0.0.0.0 cdn.aqdstatic.com
 :: cdn.aqdstatic.com
 0.0.0.0 pay.aqiu6.com
@@ -4086,6 +4044,8 @@
 :: onlinetips.baofeng5.baofeng.net
 0.0.0.0 ploy.baofeng.net
 :: ploy.baofeng.net
+0.0.0.0 djs.baomihua.com
+:: djs.baomihua.com
 0.0.0.0 lib.baomitu.com
 :: lib.baomitu.com
 0.0.0.0 bartender.cc
@@ -4668,8 +4628,8 @@
 :: butou.cn
 0.0.0.0 buyalwansolar.shop
 :: buyalwansolar.shop
-0.0.0.0 buynaturium.shop
-:: buynaturium.shop
+0.0.0.0 sdn2.buyusdt.me
+:: sdn2.buyusdt.me
 0.0.0.0 bvmlt.top
 :: bvmlt.top
 0.0.0.0 bwin2808.com
@@ -4810,6 +4770,8 @@
 :: p1-dy.bytexservice.com
 0.0.0.0 bzcjy.cn
 :: bzcjy.cn
+0.0.0.0 ppdn.bzszyy123.com
+:: ppdn.bzszyy123.com
 0.0.0.0 api.bzxd.tv
 :: api.bzxd.tv
 0.0.0.0 dimg04.c-ctrip.com
@@ -5656,6 +5618,8 @@
 :: code222.com
 0.0.0.0 codenow.cn
 :: codenow.cn
+0.0.0.0 1.codesdq.com
+:: 1.codesdq.com
 0.0.0.0 codesoftchina.com
 :: codesoftchina.com
 0.0.0.0 reportwest-midas.codmwest.com
@@ -6736,24 +6700,8 @@
 :: domob.cn
 0.0.0.0 ap.dongdianqiu.com
 :: ap.dongdianqiu.com
-0.0.0.0 eo.dongdm.cn
-:: eo.dongdm.cn
-0.0.0.0 ap.dongqiudi.com
-:: ap.dongqiudi.com
-0.0.0.0 dab.dongqiudi.com
-:: dab.dongqiudi.com
-0.0.0.0 device.dongqiudi.com
-:: device.dongqiudi.com
-0.0.0.0 im-ap.dongqiudi.com
-:: im-ap.dongqiudi.com
-0.0.0.0 sensors-log.dongqiudi.com
-:: sensors-log.dongqiudi.com
-0.0.0.0 stat.dongqiudi.com
-:: stat.dongqiudi.com
-0.0.0.0 template.dongqiudi.com
-:: template.dongqiudi.com
-0.0.0.0 voc.dongqiudi.com
-:: voc.dongqiudi.com
+0.0.0.0 dongqiudi.com
+:: dongqiudi.com
 0.0.0.0 dopa.com
 :: dopa.com
 0.0.0.0 dopa.com.cn
@@ -6932,6 +6880,8 @@
 :: bigdata.downza.com
 0.0.0.0 res.doyea.cn
 :: res.doyea.cn
+0.0.0.0 dpd-paketkosten.click
+:: dpd-paketkosten.click
 0.0.0.0 dpjzzgw.cn
 :: dpjzzgw.cn
 0.0.0.0 dpurl.cn
@@ -7736,8 +7686,6 @@
 :: foisonad.com
 0.0.0.0 folxchina.cn
 :: folxchina.cn
-0.0.0.0 qqk.foncao.com
-:: qqk.foncao.com
 0.0.0.0 analytics.fontke.com
 :: analytics.fontke.com
 0.0.0.0 fonts.googleapis.com
@@ -7936,8 +7884,6 @@
 :: fy14.cn
 0.0.0.0 nr.fymc.space
 :: nr.fymc.space
-0.0.0.0 odswwsk.fyryaoh.com
-:: odswwsk.fyryaoh.com
 0.0.0.0 fywuywf.cn
 :: fywuywf.cn
 0.0.0.0 zd.fzmf.cn
@@ -8084,8 +8030,6 @@
 :: download.ahgdlz.top.gccdn.net
 0.0.0.0 download.dhzn.xyz.gccdn.net
 :: download.dhzn.xyz.gccdn.net
-0.0.0.0 download.shirui1004.com.gccdn.net
-:: download.shirui1004.com.gccdn.net
 0.0.0.0 gc.ckrkg.com.gccdn.net
 :: gc.ckrkg.com.gccdn.net
 0.0.0.0 gj89gfg.hyojzu.cn.gccdn.net
@@ -8792,8 +8736,6 @@
 :: bdjsym.guangyuanol.cn
 0.0.0.0 guangzhuiyuan.com
 :: guangzhuiyuan.com
-0.0.0.0 g.guanxiwen.cn
-:: g.guanxiwen.cn
 0.0.0.0 cdgtw3.guapaijia.com
 :: cdgtw3.guapaijia.com
 0.0.0.0 ir-sdk.guardease.com
@@ -9214,8 +9156,6 @@
 :: isdk-gameunion-cn.heytapmobi.com
 0.0.0.0 obus-cn.dc.heytapmobi.com
 :: obus-cn.dc.heytapmobi.com
-0.0.0.0 obus-conf-cn.heytapmobi.com
-:: obus-conf-cn.heytapmobi.com
 0.0.0.0 obus-config-cn.heytapmobi.com
 :: obus-config-cn.heytapmobi.com
 0.0.0.0 obus-dc10-cn.heytapmobi.com
@@ -9746,6 +9686,8 @@
 :: g.hsw.cn
 0.0.0.0 ht55.cn
 :: ht55.cn
+0.0.0.0 ht926.com
+:: ht926.com
 0.0.0.0 htftds.com
 :: htftds.com
 0.0.0.0 htggcy.com
@@ -9866,6 +9808,8 @@
 :: repo.huaweicloud.com
 0.0.0.0 uba.huaweicloud.com
 :: uba.huaweicloud.com
+0.0.0.0 kdl.huaxinsp.cn
+:: kdl.huaxinsp.cn
 0.0.0.0 huayi.top
 :: huayi.top
 0.0.0.0 huayiav.cn
@@ -9936,6 +9880,8 @@
 :: huoche.com.cn
 0.0.0.0 huodonghezi.cn
 :: huodonghezi.cn
+0.0.0.0 emma-414870e223.huodonghezi.com
+:: emma-414870e223.huodonghezi.com
 0.0.0.0 ads-log.huolala.cn
 :: ads-log.huolala.cn
 0.0.0.0 www-ads.huolala.co
@@ -10280,8 +10226,8 @@
 :: e.ik20nd.cn
 0.0.0.0 m.ik20nd.cn
 :: m.ik20nd.cn
-0.0.0.0 a4.ikafan.com
-:: a4.ikafan.com
+0.0.0.0 a3.ikafan.com
+:: a3.ikafan.com
 0.0.0.0 www.ikesepsckslp.cn
 :: www.ikesepsckslp.cn
 0.0.0.0 posthog.ikuai8.com
@@ -10296,8 +10242,6 @@
 :: smetrics.ilovematlab.cn
 0.0.0.0 imageter.com
 :: imageter.com
-0.0.0.0 imagiraffe.shop
-:: imagiraffe.shop
 0.0.0.0 imazingchina.com
 :: imazingchina.com
 0.0.0.0 log-h5.imdada.cn
@@ -10498,8 +10442,6 @@
 :: cmonitor.iqiyi.com
 0.0.0.0 cook.iqiyi.com
 :: cook.iqiyi.com
-0.0.0.0 cr-status.iqiyi.com
-:: cr-status.iqiyi.com
 0.0.0.0 cs-feige.iqiyi.com
 :: cs-feige.iqiyi.com
 0.0.0.0 data.video.iqiyi.com
@@ -11098,6 +11040,8 @@
 :: jiuka.com
 0.0.0.0 ad.jiukagame.com
 :: ad.jiukagame.com
+0.0.0.0 jiuku.cc
+:: jiuku.cc
 0.0.0.0 h5.jiumaster.com
 :: h5.jiumaster.com
 0.0.0.0 sg-dyb-cdn.jiuyaowangluo.com
@@ -11326,14 +11270,16 @@
 :: ee.k2d98mi.cn
 0.0.0.0 m.k2d98mi.cn
 :: m.k2d98mi.cn
+0.0.0.0 k2n0f.cn
+:: k2n0f.cn
 0.0.0.0 k3l.cn
 :: k3l.cn
 0.0.0.0 k69wes8q8.com
 :: k69wes8q8.com
-0.0.0.0 02u7.k8.com
-:: 02u7.k8.com
-0.0.0.0 14x6.k8.com
-:: 14x6.k8.com
+0.0.0.0 0591.k8.com
+:: 0591.k8.com
+0.0.0.0 0of1.k8.com
+:: 0of1.k8.com
 0.0.0.0 k8velr77p.com
 :: k8velr77p.com
 0.0.0.0 ad.k98y.cn
@@ -12618,6 +12564,12 @@
 :: apiyq996.lltgm.com
 0.0.0.0 down.lltskb.com
 :: down.lltskb.com
+0.0.0.0 c0d811ae.lm-dns.com
+:: c0d811ae.lm-dns.com
+0.0.0.0 g031e13.cdn.lm-dns.com
+:: g031e13.cdn.lm-dns.com
+0.0.0.0 htcc.lmzz.lm-dns.com
+:: htcc.lmzz.lm-dns.com
 0.0.0.0 xtyj.lmdbw.com
 :: xtyj.lmdbw.com
 0.0.0.0 fcioamjuaonyftgc.ln518c.com
@@ -15842,8 +15794,6 @@
 :: logsdk.qq.com
 0.0.0.0 ltsbsy.qq.com
 :: ltsbsy.qq.com
-0.0.0.0 ltscsy.qq.com
-:: ltscsy.qq.com
 0.0.0.0 ltssjy.qq.com
 :: ltssjy.qq.com
 0.0.0.0 m-game.book.qq.com
@@ -17726,8 +17676,6 @@
 :: pb.hd.sohu.com.cn
 0.0.0.0 cdn.sohucs.com
 :: cdn.sohucs.com
-0.0.0.0 solacebeauty.shop
-:: solacebeauty.shop
 0.0.0.0 smetrics.solidigmtech.com.cn
 :: smetrics.solidigmtech.com.cn
 0.0.0.0 smetrics.solidigmtechnology.cn
@@ -18506,6 +18454,8 @@
 :: 790brv32.sched.vodtylego.tdnsvod1.cn
 0.0.0.0 cfae5defeae32003.eo.sched.vodtylego-dk.tdnsvod1.cn
 :: cfae5defeae32003.eo.sched.vodtylego-dk.tdnsvod1.cn
+0.0.0.0 js.static.tebaidu.cn
+:: js.static.tebaidu.cn
 0.0.0.0 tg.tebiezhuan.com
 :: tg.tebiezhuan.com
 0.0.0.0 techkey.com.cn
@@ -19012,6 +18962,8 @@
 :: ta.trs.cn
 0.0.0.0 ad.truerun.com
 :: ad.truerun.com
+0.0.0.0 truly4-totam99.cfd
+:: truly4-totam99.cfd
 0.0.0.0 trumerholz-store.shop
 :: trumerholz-store.shop
 0.0.0.0 trustutn.org
@@ -20420,8 +20372,6 @@
 :: vdn5-1.vzuu.com
 0.0.0.0 vdn6.vzuu.com
 :: vdn6.vzuu.com
-0.0.0.0 w1a.cc
-:: w1a.cc
 0.0.0.0 w1i.cn
 :: w1i.cn
 0.0.0.0 w3d.cn
@@ -20618,6 +20568,8 @@
 :: w.webank.com
 0.0.0.0 ripd.webankcdn.net
 :: ripd.webankcdn.net
+0.0.0.0 webdissector.com
+:: webdissector.com
 0.0.0.0 webfunny.cn
 :: webfunny.cn
 0.0.0.0 jiaoben.webkaka.com
@@ -20754,6 +20706,8 @@
 :: sentry.oihlecz.com.whecloud.com
 0.0.0.0 whjzjx.cn
 :: whjzjx.cn
+0.0.0.0 whoami.akamai.net
+:: whoami.akamai.net
 0.0.0.0 whpnd.cn
 :: whpnd.cn
 0.0.0.0 intl-sdklog.whyrtc.com
@@ -21820,6 +21774,8 @@
 :: vtg2c1j8h2x8di5nk.xn--lmqz79ihwap57b.com
 0.0.0.0 xn--m7r781dz66a.cn
 :: xn--m7r781dz66a.cn
+0.0.0.0 a13.xn--vhqt2hvuhr1h113abiq.xn--fiqs8s
+:: a13.xn--vhqt2hvuhr1h113abiq.xn--fiqs8s
 0.0.0.0 ts1703360599.xn--vhqt2hvuhr1h113abiq.xn--fiqs8s
 :: ts1703360599.xn--vhqt2hvuhr1h113abiq.xn--fiqs8s
 0.0.0.0 zwdqtedlvzsn.xn--vzyw96bk9n.xn--fiqs8s
@@ -22300,12 +22256,10 @@
 :: 0vw1.yide.com
 0.0.0.0 11h3.yide.com
 :: 11h3.yide.com
-0.0.0.0 13s7.yide.com
-:: 13s7.yide.com
-0.0.0.0 njw5.yide.com
-:: njw5.yide.com
-0.0.0.0 nwye.yide.com
-:: nwye.yide.com
+0.0.0.0 n6pn.yide.com
+:: n6pn.yide.com
+0.0.0.0 skg3.yide.com
+:: skg3.yide.com
 0.0.0.0 imagelx.yidianzixun.com
 :: imagelx.yidianzixun.com
 0.0.0.0 l.yidianzixun.com
@@ -22354,6 +22308,8 @@
 :: log.yinshantech.cn
 0.0.0.0 yinxiang.com
 :: yinxiang.com
+0.0.0.0 yinyuehu.cn
+:: yinyuehu.cn
 0.0.0.0 yiqifa.com
 :: yiqifa.com
 0.0.0.0 m.baidu.com.yiqisee.cn
@@ -22538,8 +22494,6 @@
 :: wow-activity.youdao.com
 0.0.0.0 ydpushserver.youdao.com
 :: ydpushserver.youdao.com
-0.0.0.0 youdaoads.com
-:: youdaoads.com
 0.0.0.0 youday.cn
 :: youday.cn
 0.0.0.0 static.youdm.cn
@@ -22730,6 +22684,8 @@
 :: photo.yqydjr.cn
 0.0.0.0 yrqwnc.cn
 :: yrqwnc.cn
+0.0.0.0 yrxmr.com
+:: yrxmr.com
 0.0.0.0 ys630.com
 :: ys630.com
 0.0.0.0 adx.ys7.com
